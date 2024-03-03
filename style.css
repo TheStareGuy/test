@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(130deg, #ffdf81, rgb(255, 153, 0));
+}
+
+.register{
+    width: 100%;
+    max-width: 450px;
+    background-color: rgb(255, 170, 12);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.register h1{
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 45px;
+}
+
+input {
+    flex: 1;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: white;
+    padding: 10px;
+    font-weight: 14px;
+    border-radius: 30px;
+    margin: 10px;
+    
+}
+
+.btn {
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    padding-top: 8px;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btn2 {
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    padding-top: 8px;
+    font-size: 12px;
+}
